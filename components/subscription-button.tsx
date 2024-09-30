@@ -22,7 +22,7 @@ export const SubscriptionButton = ({
 
       window.location.href = response.data.url;
     } catch (error) {
-      toast.error("Something went wrong");
+      toast.error("Что-то пошло не так");
     } finally {
       setLoading(false);
     }
@@ -30,7 +30,7 @@ export const SubscriptionButton = ({
 
   return (
     <Button variant={isPro ? "default" : "premium"} disabled={loading} onClick={onClick} >
-      {isPro ? "Manage Subscription" : "Upgrade"}
+      {isPro ? "Настройки Подписки" : "Оформить Pro"}
       {!isPro && <Zap className="w-4 h-4 ml-2 fill-white" />}
     </Button>
   )

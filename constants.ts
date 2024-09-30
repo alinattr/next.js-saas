@@ -1,38 +1,24 @@
-import { Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lucide-react";
+import {Code, ImageIcon, Bot, Disc3, Dna} from "lucide-react";
 
-export const MAX_FREE_COUNTS = 5;
+export const MAX_FREE_COUNTS = 30;
 
 export const tools = [
   {
-    label: 'Conversation',
-    icon: MessageSquare,
+    label: 'Чат-бот',
+    icon: Bot,
     href: '/conversation',
     color: "text-violet-500",
     bgColor: "bg-violet-500/10",
   },
   {
-    label: 'Music Generation',
-    icon: Music,
-    href: '/music',
-    color: "text-emerald-500",
-    bgColor: "bg-emerald-500/10",
-  },
-  {
-    label: 'Image Generation',
+    label: 'Создать Изображение',
     icon: ImageIcon,
     color: "text-pink-700",
     bgColor: "bg-pink-700/10",
     href: '/image',
   },
   {
-    label: 'Video Generation',
-    icon: VideoIcon,
-    color: "text-orange-700",
-    bgColor: "bg-orange-700/10",
-    href: '/video',
-  },
-  {
-    label: 'Code Generation',
+    label: 'Генератор Кода',
     icon: Code,
     color: "text-green-700",
     bgColor: "bg-green-700/10",

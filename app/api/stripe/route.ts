@@ -43,8 +43,8 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "Genius Pro",
-              description: "Unlimited AI Generations"
+              name: "Obscura Pro",
+              description: "Безлимитное общение с AI"
             },
             unit_amount: 2000,
             recurring: {
